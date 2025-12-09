@@ -51,7 +51,7 @@ project_root/
 │   │   ├── Blending.py               # Loss functions and blending optimization
 │   │   └── ...
 │   ├── pretrained_models/
-│   │   └── ffhq.pt                   # StyleGAN2 FFHQ pretrained weights
+│   │   └── ffhq.pt                   # Style2 FFHQ pretrained weights
 │   ├── unprocessed/                  # Input images before alignment (original + hairstyle samples)
 │   ├── input/                        # Aligned faces for GAN processing
 │   │   └── face/                     # Typically used as the main aligned input folder
@@ -74,6 +74,13 @@ project_root/
 │
 └── README.md
 ```
+## Pretrained Model
+
+Due to GitHub's 100MB file size limit, the pretrained EfficientNet model `best_model.pth` is not included in this repository.
+You can download it from the following link and place it in the project root:
+
+- Download: [<Google Drive link>](https://drive.google.com/file/d/17uwtzFxx5Vb4rQ6mZGae9Kq-otqjAxhQ/view?usp=sharing)
+- Target path: `./best_model.pth`
 
 ## 3. Environment & Requirements
 
