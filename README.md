@@ -79,7 +79,7 @@ project_root/
 Due to GitHub's 100MB file size limit, the pretrained EfficientNet model `best_model.pth` is not included in this repository.
 You can download it from the following link and place it in the project root:
 
-- Download: [<Google Drive link>](https://drive.google.com/file/d/17uwtzFxx5Vb4rQ6mZGae9Kq-otqjAxhQ/view?usp=sharing)
+- Download: https://drive.google.com/file/d/17uwtzFxx5Vb4rQ6mZGae9Kq-otqjAxhQ/view?usp=sharing
 - Target path: `./best_model.pth`
 
 ## 3. Environment & Requirements
